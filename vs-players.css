@@ -1,0 +1,84 @@
+body {
+	background-color: #1a2a33;
+}
+
+section {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 20px;
+	width: 70%;
+	padding: 50px;
+}
+
+
+
+nav {
+	display: flex;
+	flex-direction: row;
+	gap: 115px;
+}
+
+.tt {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	padding-top: 60px;
+}
+
+.but {
+	background-color: #1f3641;
+	border: none;
+	border-radius: 5px;
+	padding: 60px 10px 10px 10px;
+	box-shadow: 0px 7px 0px #10212a;
+}
+
+.pt1 {
+	border: none;
+	border-radius: 5px;
+	background-color: #1f3641;
+	box-shadow: 0px 5px 0px #10212a;
+	color: #a8bfc9;
+}
+
+.pt2{
+    border: none;
+    background-color: #A8BFC9;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #6B8997;
+    padding: 0px 10px;
+}
+
+.c2 {
+	width: 30%;
+}
+
+.butt{
+    border: none;
+    border-radius: 5px;
+    background-color: #31C3BD;
+    padding: 10px 20px ;
+}
+
+.glob1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.butt2{
+    border: none;
+    border-radius: 5px;
+    background-color: #A8BFC9;
+    padding: 10px 20px ;
+}
+
+.butt3{
+    border: none;
+    border-radius: 5px;
+    background-color: #F2B137;
+    padding: 10px 20px ;
+}
