@@ -89,7 +89,7 @@ nav {
     width: 99.5%;
     top: 220px;
     right: 1px;
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 
 .para{
@@ -100,13 +100,12 @@ nav {
 
 .tl1{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    
 }
 
-.ov{
-    color: #F2B137;
+.op{
+    color: #6B8997;
 }
 
 .qui{
@@ -129,4 +128,5 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
 }
